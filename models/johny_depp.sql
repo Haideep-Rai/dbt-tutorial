@@ -13,4 +13,5 @@ with
             select concat(first_name,' ',last_name) as name,order_date,sum(amount)  from merg
             group by name, order_date
             )
-    select * from needed_table;
+            
+    select * from needed_table
