@@ -19,3 +19,10 @@ models:
             tests:
                 - unique
                 - not_null
+sources:
+  - name: jaffle_shop
+    database: test_db  
+    schema: dbt  
+    tables:
+      - name: orders
+      - name: customers
